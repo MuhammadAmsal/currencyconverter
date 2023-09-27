@@ -1,0 +1,70 @@
+body{
+    background-image: url("../image/bakgroundimg.jpg");
+    background-repeat: no-repeat; 
+            background-size: cover; 
+}
+h1{
+    color: rgb(14, 74, 114);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.main{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  
+}
+
+.column1,.column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+width: 600px;
+min-width: 40px;
+margin-bottom: 30px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.input_currency{
+    margin-top: 30px;
+    width:194px;
+    height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+     
+}
+.currency{
+    width: 200px;
+    height: 25px;
+    /* text-align: center; */
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+   
+     
+}
+.currency:focus{
+    outline: none;
+}
+.input_currency:focus{
+    outline: none;
+}
+.button{
+    width: 70px;
+    height: 25px;
+}
